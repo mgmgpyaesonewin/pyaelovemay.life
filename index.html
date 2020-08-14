@@ -9,15 +9,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-      Wedding &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co
+      Pyae 💖 May
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-    <meta
-      name="keywords"
-      content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"
-    />
-    <meta name="author" content="FREEHTML5.CO" />
+    <meta name="description" content="Pyae 💖 May" />
+    <meta name="keywords" content="Pyae 💖 May" />
+    <meta name="author" content="Pyae 💖 May" />
 
     <!-- 
 	//////////////////////////////////////////////////////
@@ -105,7 +102,10 @@
         id="fh5co-header"
         class="fh5co-cover"
         role="banner"
-        style="background-image: url(images/background.jpg);"
+        style="
+          background-image: url(images/background.jpg);
+          background-position: center center !important;
+        "
         data-stellar-background-ratio="0.5"
       >
         <div class="overlay"></div>
@@ -217,7 +217,7 @@
       $(function () {
         var calcNewYear = setInterval(function () {
           var a = moment();
-          var b = moment().subtract(24, "years").add(1, "days").calendar();
+          var b = moment().subtract(24, "years").calendar();
           var age = moment.duration(a.diff(b));
           var years = age.years();
           var months = age.months();
